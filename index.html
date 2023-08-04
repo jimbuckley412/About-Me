@@ -8,37 +8,52 @@
 </head>
 
 <body>
-    <div class="header">
-        <h1>James class=" Choi ">Buckley</span>n</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#About Me">About Me</a>
-                </li>
-                <li>
-                    <a href="#My Work">My Work</a>
-                </li>
-                <li>
-                    <a href="#Contact Me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#Resume">My Resume</a>
-                </li>
-            </ul>
+    <header>
+        <div class="containerh">
+                <svg viewBox="0 0 700 100">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">James Choi Buckley</text>
+                    </symbol>
+                    <g class ="g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+                <ul>
+                    <li>
+                        <a href="#About Me">About</a>
+                    </li>
+                    <li>
+                        <a href="#My Work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#Contact Me">Contact</a>
+                    </li>
+                    <li>
+                        <a href="#Resume">Resume</a>
+                    </li>
+                </ul>
         </div>
-    </div>
+    </header>
+    <div class="hero"></div>
+        <img src = "./images/Juno-Beach-Sunrise-Vertical-Beach-Photo.jpg">
     <div class="content">
         <div id="About Me" class="About Me">
-            <h2>About James Choi Buckley</h2>
-            <p>
+            <h1 class="grays">A Little</h1>
+            <h1 class="purples">About Me</h1>
+            <h1 class="mint">James Choi Buckley</h1>
+            <p1>
                 I am 36 years old.  I am changing my field of study to computer science.  I have worked my way up in multiple resturants and a grocery store.  Going through the pandemic and the Aftermath and years after I wanted to change my field and job so I could learn new things everyday and be more fulfilled.  I am learning network and security along with this Bootcamp.  I am excited to work on these projects. Even if it have to submit after to complete the project. I have learned so much and its only week 4.  Fun times learning at a fast pace!
-                I love the outdoors. Summer is my favorite season followed by spring and fall!  Any time i can be outside fishing, surfing, camping, hiking, or golfing I am having fun.  I enjoy learning and reading so learning and this bootcamp was intimidating at first but I am learning a lot!
-            </p>
+                I love the outdoors. Summer is my favorite season followed by spring and fall!  Any time I can be outside fishing, surfing, camping, hiking, or golfing I am having fun.  I enjoy learning and reading so learning and this bootcamp was intimidating at first but I am learning a lot!
+            </p1>
         </div>
         <div id="My Work" class="My Work">
             <h2>Work</h2>
                <div class="container">
-                    <div id="'display"></div>
+                    <div id="display"></div>
                     <div class="buttons">
                         <div class="button">C</div>
                         <div class="button">/</div>
@@ -59,37 +74,63 @@
                         <div class="button">(</div>
                         <div class="button">0</div>
                         <div class="button">)</div>
-                        <div id="equal" class="button">=></div>
+                        <div id="equal" class="button">=</div>
                     </div>
                </div> 
-               <script src="./javaScript/calculator.js"></script>
         </section>
             
         </div>
         <div id="Contact Me" class="Contact Me">
-            <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Contact Me</h2>
-            <p>
-                Phone #
-                Email
-                Instagram
-                Github
-            </p>
-            <form>
-                <p>Hello! Please Contact Me</p>
-                <label>Firstname: <imput type="text"></imput></label>
-                <label>Lastname: <imput type="text"></imput></label>
-                <label>Email: <imput type="text"></imput></label>
-                <imput type="submit" value="Submit"></imput>
-            </form>
+                <div class="containercm">
+                    <form action="action_page.php">
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="firstName">First Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="firstName" placeholder="Your First Name">
+                            </div> 
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="lastName">Last Name</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="lastName" placeholder="Your Last Name">
+                            </div>                            
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="email">Email Address</label>
+                            </div>
+                            <div class="col-75">
+                                <input type="text" id="email" placeholder="Your Email Here">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                                <label for="subject">Subject</label>
+                            </div>
+                            <div class="col-75">
+                                <textarea id="subject" name="subject" placeholder="Your comments" style="height:200px"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="Submit"></input>
+                        </div> 
+                    </form>
+                </div>
         </div>
     </div>
     <div id="Resume" class="Resume">
-        <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
         <h2>My Resume</h2>
         <p>
-            hyperlink to my Resume
+            
         </p>
+    <script src="./javaScript/Textanimation.js"></script>
+    <script src="./javaScript/calculator.js"></script>
+    <script src="./javaScript/script.js"></script>
     <div class="footer">
         <h2>Made with ❤️️ by Jim Buckley</h2>
         <p>

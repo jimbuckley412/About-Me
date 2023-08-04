@@ -7,10 +7,10 @@ In this README.md you will see:
 -I make this website more web accessible.
 -I will optimize the site for search engines.
 -I will create a Github repository
-    -https://github.com/jimbuckley412/Horiseon_Optimization_Into_The_Future
+    -https://github.com/jimbuckley412/About-Me
         -I will clone and use commands to save and push my code to the GitHub repository.
 -I will use the repository to create a website to check and work on.
-    -http://jimbuckley412.github.io/Horiseon_Optimization_Into_The_Future
+    -http://jimbuckley412.github.io/About-Me
 -I wanted to impliment these changes to this website because Web accessibility is very important to get the most amount of people able to view the site.
 -I cleaned up the code.
 -Distinguished classes and Ids
@@ -51,6 +51,13 @@ basic page no edits
 
 
 <CREDITS:> <h5 id="C5">Chapter 4</h5>
+
+https://dev.to/javascriptacademy/create-a-simple-calculator-using-html-css-and-javascript-4o7k
+
+https://codepen.io/ClaireLarsen/pen/XmVyVX
+
+https://codepen.io/cssgrid/pen/BaYKdeM
+
 <a href="https://www.freepik.com/free-vector/vector-black-white-retro-stamps-badges-isolated_10704966.htm#query=website%20badge&position=1&from_view=keyword&track=ais">Image by macrovector</a> on Freepik
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
